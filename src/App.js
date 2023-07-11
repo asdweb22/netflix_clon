@@ -6,7 +6,7 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="netflix_clon">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
